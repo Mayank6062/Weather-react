@@ -6,7 +6,7 @@ export default function SearchBox({updateInfo}) {
     let [city, setCity] = useState(""); //state var ke sath associated karne ke bad ham input fied me data ko put kar sakte h
     let[error, setError] = useState(false); //this state used for error ko handle karne ke liye 
     const API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    const API_KEY = "181157d4de4d6f8c9d5d27863f1ea83a";
+    const API_KEY = "181157d4de4d6f8c9d5d27863f1ea83a4";
     
     let getweatherInfo = async() => { //api call always async call hoti h 
         try {
